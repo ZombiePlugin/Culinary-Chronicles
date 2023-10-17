@@ -1,0 +1,63 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+h1,
+h2,
+h3 {
+  color: #333;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px; /* Optional: Add border-radius to images */
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+  color: #777;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-image: url("chopping-board.jpg"); /* Replace 'chopping-board.jpg' with your chopping board image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: #fff; /* Set text color to white for better contrast on the board */
+}
